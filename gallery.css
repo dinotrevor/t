@@ -23,7 +23,7 @@ div#logo {
 }
 
 div#headermenusystem {
-  margin-left: 16px;
+  margin-left: 50px;
   float:right;
 }
 
@@ -68,7 +68,6 @@ div.dropmenus > a:hover {
 div#restofpage {
   padding: 36px;
 }
-
 #logo2 {
 	position: relative;
 	float:left;
@@ -83,9 +82,9 @@ p {
 }
 
 img {
-	text-align: center;
-	height: 100%;
-	width: 100%;
+	float: left;
+	height: 400px;
+	width: 400px;
 }
 a{
 	color: #000;
@@ -96,12 +95,19 @@ a:hover {
 	color: #FFF;
 	text-decoration: underline;
 }
-
 .current {
 	color: #FFF;
 	text-decoration: underline;
 }
-
+#doc {
+	margin:40px 40px 40px 0px;
+	float: left;
+		overflow-x:hidden;
+}
+#content {
+	margin: 0 auto;
+	max-width:400px;
+}
 footer {
 	background: #333333;
 	width: 100%;
@@ -149,7 +155,6 @@ footer p a {
 		border-radius: 2px 0 2px 2px;
 	}
 }
-
 .blueberry { margin: 0 auto; }
 .blueberry .slides {
 	display: block;
@@ -171,6 +176,7 @@ footer p a {
 .blueberry .crop li img { width: auto; }
 
 .blueberry .pager {
+	position: relative;
 	height: 40px;
 	text-align: center;
 }
@@ -197,16 +203,10 @@ footer p a {
 }
 .blueberry .pager li.active a span { background: #404040; }
 
-#doc {
-	margin:40px 0;
-	float: left;
-}
-#content {
-	margin: 0 auto;
-	max-width:400px;
-}
 .blueberry {
 	max-width:100%;
 	min-width: 100%;
-	margin-top: 5px;
+	margin-top: 10px;
+	margin-left:-35px;
+	overflow-x:hidden;
 }
