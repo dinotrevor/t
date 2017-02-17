@@ -66,15 +66,9 @@ div.dropmenus > a:hover {
 }
 
 div#restofpage {
-  padding: 36px;
+
 }
-#logo {
-	margin: 20px;
-	float: left;
-	width: 200px;
-	height: 60px;
-	background: url(https://cdn0.iconfinder.com/data/icons/typicons-2/24/tree-64.png) no-repeat center;
-}
+
 #logo2 {
 	position: relative;
 	float:left;
@@ -113,30 +107,8 @@ header {
 	z-index: 100;
 	opacity:0.90;
 }
-nav {
-	float: right;
-	padding: 35px 20px 20px 0;
-}
 
-ul {
-	list-style: none;
-}
-nav ul li {
-	display: inline-block;
-	float: left;
-	padding: 10px;
-}
-.current {
-	color: #FFF;
-	text-decoration: underline;
-}
-#doc {
-	margin:40px 0;
-}
-#content {
-	margin: 0 auto;
-	max-width:1140px;
-}
+
 
 footer {
 	background: #333333;
@@ -158,6 +130,20 @@ b{
 footer p a {
 	color: #FFF;
 	text-decoration: none;
+}
+
+#bg{
+	background:url(https://i.imgsafe.org/e6fb647d7c.jpg); 
+	width:100%;
+	height: auto;
+	font-size:25pt;
+	padding:5%;
+	line-height: 40px;
+	text-align: center;
+	margin:20px 20px 20px 0px;
+	float:left;
+	
+	
 }
 
 
