@@ -1,0 +1,258 @@
+* { 
+	box-sizing: border-box;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+body {
+	background: PapayaWhip;
+	font: 14px/20px Arial, San-Serif;
+	margin: 0;
+}
+div#myheader {
+  height: 100px;
+  background: #D2E9FF;
+  border-bottom: #09F 1px solid;
+}
+
+div#logo {
+  height: 75px;
+  border: #09F 1px dashed;
+  font-size: 44px;
+  padding: 0px 12px;
+}
+
+div#headermenusystem {
+  margin-left: 16px;
+  float:right;
+}
+
+div#headermenusystem > div {
+  float: left;
+  margin: 20px 20px;
+}
+
+div.dropmenus {
+  display: none;
+  position: absolute;
+  top: 100px;
+  width: 120px;
+  background: #D2E9FF;
+  z-index: 2;
+  padding: 4px;
+  border: #0385CB 3px solid;
+  border-top: none;
+  -moz-border-radius: 0px 0px 8px 8px;
+  border-radius: opx opx 8px 8px;
+}
+
+div.dropmenus > a {
+  display: block;
+  margin: 4px;
+  padding: 7px;
+  font-size: 14px;
+  text-decoration: none;
+  background: #E8E8E8;
+  border: #666 1px solid;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #000;
+}
+
+div.dropmenus > a:hover {
+  background: #FFF;
+  border: #06F 1px solid;
+  color: #000;
+}
+
+div#restofpage {
+  padding: 36px;
+}
+#logo {
+	margin: 20px;
+	float: left;
+	width: 200px;
+	height: 60px;
+	background: url(https://cdn0.iconfinder.com/data/icons/typicons-2/24/tree-64.png) no-repeat center;
+}
+#logo2 {
+	position: relative;
+	float:left;
+	transform: scale(0.80, 0.80);
+	width: 250px;
+	height: 100px;
+	background: url(https://i.imgsafe.org/95b77dea57.jpg);
+	opacity: 0.90;
+}
+p {
+	padding: 1%
+}
+
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+a{
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+header {
+	background: rgba(8,0,0,0.1);
+	width: 100%;
+	height: 86px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	opacity:0.90;
+}
+nav {
+	float: right;
+	padding: 35px 20px 20px 0;
+}
+
+ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+.current {
+	color: #FFF;
+	text-decoration: underline;
+}
+#doc {
+	margin:40px 0;
+}
+#content {
+	margin: 0 auto;
+	max-width:100%;
+}
+footer {
+	background: #333333;
+	width: 100%;
+	height:50px;
+	overflow: hidden;
+	opacity: 0.90;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+footer p, footer h3 {
+	color: #FFF;
+}
+b{
+	font-size:30px;
+	color: #eef203;
+}
+footer p a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+/*--------------------------------MEDIA!!!-----------------------*/
+@media screen and (max-width: 478px) {
+	body {
+		position: absolute;
+	}
+}
+@media screen and (max-width: 478px) {
+	header {
+		position: absolute;
+	}
+	#menu-icon {
+		display: inline-block;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #405580;
+		border: 1px solid #FFF;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 2px 0 2px 2px;
+	}
+}
+
+nav {
+	float: right;
+	padding: 35px 20px 20px 0;
+}
+
+ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+.blueberry { margin: 0 auto; }
+.blueberry .slides {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.blueberry .slides li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.blueberry .slides li img {
+	display: block;
+	width: 100%;
+	max-width: none;
+}
+.blueberry .slides li.active { display: block; position: relative; }
+.blueberry .crop li img { width: auto; }
+
+.blueberry .pager {
+	height: 40px;
+	text-align: center;
+}
+.blueberry .pager li { display: inline-block; }
+.blueberry .pager li a,
+.blueberry .pager li a span {
+	display: block;
+	height: 4px;
+	width: 4px;
+}
+.blueberry .pager li a {
+	padding: 18px 8px;
+-webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.blueberry .pager li a span {
+	overflow: hidden;
+	background: #c0c0c0;
+	text-indent: -9999px;
+-webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.blueberry .pager li.active a span { background: #404040; }
+
+#doc {
+	margin:20px 0;
+}
+#content {
+	margin: 0 auto;
+	max-width:100%;
+}
+.blueberry {
+	max-width:100%;
+	margin-top: 5px;
+}
