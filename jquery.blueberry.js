@@ -4,11 +4,11 @@
 
 			//default values for plugin options
 			var defaults = {
-				interval: 5000,
+				interval: 2000,
 				duration: 500,
 				lineheight: 1,
 				height: 'auto', //reserved
-				hoverpause: false,
+				hoverpause: true,
 				pager: true,
 				nav: true, //reserved
 				keynav: true
