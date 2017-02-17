@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>My Games</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="games.css">
+<script src="games.js"></script>
+<script>
+var ma = ["dropmenu1","dropmenu2","dropmenu3"];
+function dropMenu(x) {
+    for (var m in ma) {
+        if(ma[m] != x) {
+            document.getElementById(ma[m]).style.display = "none";
+        }
+    }
+    if (document.getElementById(x).style.display == 'block') {
+        fadeOut(x);
+    } else {
+        fadeIn(x);
+    }
+};
+</script>
+</head>
+<body>
+<!-START HEADER ->
+<div id="myheader">
+      <div href="#" class="current" id="logo2"></div>
+      <!-START MENU SYSTEM->
+      <div id="headermenusystem">
+	          <div>
+                  <a href="games.html">Home</a>
+				</div>
+              <div id="cont1">
+                  <a href="#" onclick="return false;" onmousedown="dropMenu('dropmenu1')">News</a>
+                  <div id="dropmenu1" class="dropmenus">
+                      <a href="today.html">Today</a>
+                      <a href="current.html">Current</a>
+                      <a href="history.html">History</a>
+                  </div>
+              </div>
+              <div id="cont2">
+                <a href="#" onclick="return false;" onmousedown="dropMenu('dropmenu2')">Games</a>
+                <div id="dropmenu2" class="dropmenus">
+                  <a href="jepordy.html">Jepordy</a>
+                  <a href="questionaire.html">Questionaire</a>
+                  <a href="match.html">Match (CAUTION!) </a>
+                </div>
+              </div>
+              <div id="cont3">
+                <a href="#" onclick="return false;" onmousedown="dropMenu('dropmenu3')">Dogs</a>
+                <div id="dropmenu3" class="dropmenus">
+                  <a href="videos.html">Videos</a>
+                  <a href="gallery.html">Gallery</a>
+                  <a href="dogs.html">Family</a>
+                </div>
+              </div>
+              <div>
+                <a href="contact.html">Contact Us</a>
+              </div>
+      </div>
+  <!-END MENU->
+  </div>
+  <!-ENDS HEADER->
+  <div id="restofpage" onmouseover="dropMenu()" style="height:500px;">
+ </div>
+<footer class="second">
+	<p>&copy Copyright - Little Tree, 2017.</p>
+</footer>
+</body>
+</html>
