@@ -198,11 +198,12 @@ footer p a {
 .blueberry .pager li.active a span { background: #404040; }
 
 #doc {
-	margin:20px 0;
+	margin:40px 0;
+	float: left;
 }
 #content {
 	margin: 0 auto;
-	max-width:100%;
+	max-width:400px;
 }
 .blueberry {
 	max-width:100%;
