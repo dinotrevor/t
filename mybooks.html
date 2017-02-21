@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>My Books</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="c:\trevor\css\mybooks.css">
+<script src="c:\trevor\js\games.js"></script>
+<script>
+var ma = ["dropmenu1","dropmenu2","dropmenu3"];
+function dropMenu(x) {
+    for (var m in ma) {
+        if(ma[m] != x) {
+            document.getElementById(ma[m]).style.display = "none";
+        }
+    }
+    if (document.getElementById(x).style.display == 'block') {
+        fadeOut(x);
+    } else {
+        fadeIn(x);
+    }
+};
+</script>
+</head>
+<body>
+<!-START HEADER ->
+<div id="myheader">
+      <div href="#" class="current" id="logo2"></div>
+      <!-START MENU SYSTEM->
+      <div id="headermenusystem">
+	          <div>
+                  <a href="games.html">Home</a>
+				</div>
+              <div id="cont1">
+                  <a href="#" onclick="return false;" onmousedown="dropMenu('dropmenu1')">News</a>
+                  <div id="dropmenu1" class="dropmenus">
+                      <a href="today.html">Today</a>
+                      <a href="current.html">Current</a>
+                      <a href="history.html">History</a>
+                  </div>
+              </div>
+              <div id="cont2">
+                <a href="#" onclick="return false;" onmousedown="dropMenu('dropmenu2')">Games</a>
+                <div id="dropmenu2" class="dropmenus">
+                  <a href="jepordy.html">Jepordy</a>
+                  <a href="questionaire.html">Questionaire</a>
+                  <a href="match.html">Match (CAUTION!) </a>
+                </div>
+              </div>
+              <div id="cont3">
+                <a href="#" onclick="return false;" onmousedown="dropMenu('dropmenu3')">Dogs</a>
+                <div id="dropmenu3" class="dropmenus">
+                  <a href="videos.html">Videos</a>
+                  <a href="gallery.html">Gallery</a>
+                  <a href="dogs.html">Family</a>
+                </div>
+              </div>
+              <div>
+                <a href="contact.html">Contact Us</a>
+              </div>
+      </div>
+  <!-END MENU->
+  </div>
+  <!-ENDS HEADER->
+  <div id="restofpage" onmouseover="dropMenu()" style="height:500px;">
+	<div id="renouter">
+	<h1>Books</h1>
+		<h2> Renouter </h2>
+			<h3> Written By Trevor Flynn.</h3>
+  <article class="article">
+  <h4>Chapter 1</h4>
+<p>
+		 A strange smell filled the air, I was just finishing my last
+cigarette as the clock strikes 7:00pm. The sun is down and Christmas is
+in two days. I go inside my house after my cigarette to get my wallet and 
+keys when my phone starts ringing. It was my wife Hollie. "Hey honey, i'll
+be home late tonight there is alot of paperwork." she said. "Okay be careful 
+and call me if you need to, I love you bye.". I hung up and walked out the
+door, I needed to get a few items at the store but before I could start my 
+car my boss Rudy texts me: "Trevor, turn on the news as soon as possible.".
+I went back inside my house disregarding the store. I turn on the news and
+see some crazy stuff. I called Robert and Tyler and told him to come over as
+soon as possible. I started to get my computer out when Hollie, Tyler, Robert,
+Sarah, and Amanda walk in. We all gather around the TV to hear the breaking 
+news: "Around every state in the country and in numerous countries, there has
+been an onslaught of giant animals killing people. Over 350 total deaths world-
+wide that we know of. We will have more as the story progresses. Stay indoors.".
+</p>
+<p>
+
+
+
+</p>
+
+</article>   
+</div> 
+ </div>
+<footer class="second">
+	<p>&copy Copyright - Little Tree, 2017.</p>
+</footer>
+</body>
+</html>
