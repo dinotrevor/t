@@ -5,7 +5,7 @@
 	padding: 0;
 }
 body {
-	background: PapayaWhip;
+	background:url(https://i.imgsafe.org/e6ffc65342.jpg);
 	font: 14px/20px Arial, San-Serif;
 	margin: 0;
 }
@@ -23,7 +23,7 @@ div#logo {
 }
 
 div#headermenusystem {
-  margin-left: 16px;
+  margin-left: 5px;
   float:right;
 }
 
@@ -66,15 +66,9 @@ div.dropmenus > a:hover {
 }
 
 div#restofpage {
-  padding: 36px;
+padding: 0;
 }
-#logo {
-	margin: 20px;
-	float: left;
-	width: 200px;
-	height: 60px;
-	background: url(https://cdn0.iconfinder.com/data/icons/typicons-2/24/tree-64.png) no-repeat center;
-}
+
 #logo2 {
 	position: relative;
 	float:left;
@@ -103,40 +97,12 @@ a:hover {
 	color: #FFF;
 	text-decoration: underline;
 }
-header {
-	background: rgba(8,0,0,0.1);
-	width: 100%;
-	height: 86px;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 100;
-	opacity:0.90;
-}
-nav {
-	float: right;
-	padding: 35px 20px 20px 0;
-}
 
-ul {
-	list-style: none;
-}
-nav ul li {
-	display: inline-block;
-	float: left;
-	padding: 10px;
-}
 .current {
 	color: #FFF;
 	text-decoration: underline;
 }
-#doc {
-	margin:40px 0;
-}
-#content {
-	margin: 0 auto;
-	max-width:1140px;
-}
+
 footer {
 	background: #333333;
 	width: 100%;
@@ -185,28 +151,15 @@ footer p a {
 	}
 }
 
-nav {
-	float: right;
-	padding: 35px 20px 20px 0;
-}
-
-ul {
-	list-style: none;
-}
-nav ul li {
-	display: inline-block;
-	float: left;
-	padding: 10px;
-}
 
 
 #huh {
 	color:#23e;
 	font-style: italic;
 	text-decoration: underline;
-	font-size:5em;
+	font-size:4em;
 	position:relative;
-	margin:0px 0px 25px 0px;
+	margin:100px 0px 25px 0px;
 }
 
 
@@ -217,4 +170,5 @@ aside {
 	width: 50%;
 	height:auto;
 	font-size:2em;
+	line-height :20pt;
 }
