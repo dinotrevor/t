@@ -6,18 +6,29 @@ body{
     font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
     text-align:center;
     color:white;
+    -moz-background:linear-gradient(#339966, #669933, #993366);
+    -moz-margin:0%;
+    -moz-padding:0%;
+    -moz-border:solid black 2px;
+    -moz-font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
+    -moz-text-align:center;
+    -moz-color:white;
 } 
 #instruct {
     background-color: #000;
-
+    -moz-background-color: #000;
 }
 .cat {
     font-size: 20px;
+    -moz-font-size: 20px;
 }
 .dog{
     font-size:22px;
-    background-color:white;
+    background-color: white;
     color:black;
+    -moz-font-size:22px;
+    -moz-background-color:white;
+    -moz-color:black;
 }
 #dog{
     
@@ -26,23 +37,33 @@ body{
     color: #8af;
     font-size: 2em;
     text-align: left;
-    
     border:1pt;
     border-color:white;
+    -moz-color: #8af;
+    -moz-font-size: 2em;
+    -moz-text-align: left;
+    -moz-border:1pt;
+    -moz-border-color:white;
 }
 #yin{
     background-color: #111999;
+    -moz-background-color: #111999;
 }
 #yang{
     background-color:#999111;
+    -moz-background-color:#999111;
 }
 #correct{
     background-color: green;    
     font-size: 2em;
+    -moz-background-color: green; 
+    -moz-font-size: 2em;
 }
 #wrong {
     background-color: red;
     font-size: 2em;
+   -moz-background-color: red;
+    -moz-font-size: 2em;
 }
 button {
     background-color:black;
@@ -50,24 +71,39 @@ button {
     font-size:18px;
     border: solid white 5px;
     border-radius: 50px;
+    -moz-background-color:black;
+    -moz-color: white;
+    -moz-font-size:18px;
+    -mozborder: solid white 5px;
+    -moz-border-radius: 50px;
 }
 .button2, .button1, .button0{
     background-color: silver;
     color:black;
     margin: 5% 5% 5% 5%;
     padding: 15px 15px;
+  -moz-background-color: silver;
+  -moz-color:black;
+  -moz-margin: 5% 5% 5% 5%;
+  -moz-padding: 15px 15px;
 }
 .button3 {
     background-color: black;
+  -moz-background-color: black;
 }
 ol{
     margin:0%;
+    -moz-margin :0%;
 }
 html {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top center;
     background-attachment: fixed;
+   -moz-background-repeat: no-repeat;
+   -moz-background-size: 100%;
+   -moz-background-position: top center;
+   -moz-background-attachment: fixed;
 }
 
 
