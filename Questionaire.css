@@ -1,0 +1,74 @@
+body{
+    background: linear-gradient(#339966, #669933, #993366);
+    margin:0%;
+    padding:0%;
+    border:solid black 2px;
+    font-family: 'Helvetica Neue', 'Segoe UI Light', sans-serif;
+    text-align:center;
+    color:white;
+} 
+#instruct {
+    background-color: #000;
+
+}
+.cat {
+    font-size: 20px;
+}
+.dog{
+    font-size:22px;
+    background-color:white;
+    color:black;
+}
+#dog{
+    
+}
+#rules {
+    color: #8af;
+    font-size: 2em;
+    text-align: left;
+    
+    border:1pt;
+    border-color:white;
+}
+#yin{
+    background-color: #111999;
+}
+#yang{
+    background-color:#999111;
+}
+#correct{
+    background-color: green;    
+    font-size: 2em;
+}
+#wrong {
+    background-color: red;
+    font-size: 2em;
+}
+button {
+    background-color:black;
+    color: white;
+    font-size:18px;
+    border: solid white 5px;
+    border-radius: 50px;
+}
+.button2, .button1, .button0{
+    background-color: silver;
+    color:black;
+    margin: 5% 5% 5% 5%;
+    padding: 15px 15px;
+}
+.button3 {
+    background-color: black;
+}
+ol{
+    margin:0%;
+}
+html {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+
+
