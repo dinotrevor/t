@@ -14,42 +14,21 @@ function setColor3(){
 document.getElementById("button3").style.backgroundColor='#991111';
 }
 function setColor4(){
-document.getElementById("button4").style.backgroundColor='#991111';
-}
+document.getElementById("button4").style.backgroundColor='#99
 function setColor5(){
 document.getElementById("button5").style.backgroundColor='#991111';
 }
 function setColor6(){
-document.getElementById("button6").style.backgroundColor='#991111';
-}
-function setColor7(){
-document.getElementById("button7").style.backgroundColor='#991111';
-}
-function setColor8(){
-document.getElementById("button8").style.backgroundColor='#119911';
-}
-function setColor9(){
-document.getElementById("button9").style.backgroundColor='#991111';
-}
-function setColor10(){
-document.getElementById("button10").style.backgroundColor='#991111';
-}
-function setColor11(){
-document.getElementById("button11").style.backgroundColor='#119911';
+
+
+
 }
 function setColor12(){
-document.getElementById("button12").style.backgroundColor='#991111';
-}
+document.getElementById("button12").
 function setColor13(){
-document.getElementById("button13").style.backgroundColor='#991111';
-}
+document.getElementById("button13").style.backgro
 function setColor14(){
-document.getElementById("button14").style.backgroundColor='#119911';
-}
-function setColor15(){
-document.getElementById("button15").style.backgroundColor='#991111';
-}
-function setColor16(){
+document.getElementById("button14").style.backgroundColor='#119911'Color16(){
 document.getElementById("button16").style.backgroundColor='#991111';
 }
 function setColor17(){
