@@ -114,18 +114,19 @@ document.getElementById("eleven").style.display = "none";
 function change12() {
 document.write("<p>You got " + score + " out of 12 questions correct.</p>");
  if (score === 12) {
-     document.write("<p><strong> You are the master questionaire!</strong></p>")
+     document.write("<p><strong><a href='mailto:beonewithbac0n@gmail.com'>Send Email</a> You are the master questionaire!</strong></p>")
 } else if ( score >=  10) {
-    document.write("<p><strong>You earned a gold crown!<!strong></p>");
+    document.write("<p><strong><a href='mailto:beonewithbac0n@gmail.com'>Send Email</a>You earned a gold crown!<!strong></p>");
 } else if ( score >= 8) {
-    document.write("<p><strong>You earned a silver crown!</strong></p>");
+    document.write("<p><strong><a href='mailto:beonewithbac0n@gmail.com'>Send Email</a>You earned a silver crown!</strong></p>");
 } else if ( score === 7) {
-    document.write("<p><strong>You earned a bronze crown!</strong></p>");
+    document.write("<p><strong><a href='mailto:beonewithbac0n@gmail.com'>Send Email</a> You earned a bronze crown!</strong></p>");
 } else  {
-    document.write("<p><strong> No crown for you. You need to study.</strong></p>");
+    document.write("<p><strong><a href='mailto:beonewithbac0n@gmail.com'>Send Email</a> No crown for you. You need to study.</strong></p>");
 }
 }
- ******************************************************************************************************
+
+ //******************************************************************************************************
 
 
 // change button colors.
@@ -143,7 +144,7 @@ function setColor4(){
 document.getElementById("button4").style.backgroundColor='#991111';
 }
 function setColor5(){
-document.getElementById("button5").style.backgroundColor='#991111';
+document.getElementById("button5").style.backgroundColor='#991111' 
 }
 function setColor6(){
 document.getElementById("button6").style.backgroundColor='#991111';
