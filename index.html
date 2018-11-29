@@ -121,74 +121,7 @@
 <button id = "button48" class ="button2" type = "button" onclick ="answer48(), setColor48(), setTimeout(change12, 1000)"> <p> Big E </p> </button>
 </div>
 
-<div style="font-size: 30pt;" ><p>Application (Layer 7)
 
-The Application layer integrates network functionality into the host operating system, and enables network services.
-
-Protocols: HTTP, Telnet , FTP, TFTP, SNMP, DNS, DHCP, SMTP
-PDU: Data
-Devices: Computers / User Interface
-Presentation (Layer 6)
-
-The Presentation layer formats or “presents” data into a compatible form. Presentation layer ensures:
-Formatting and translation of data between systems.
-Negotiation of data transfer syntax between systems, through converting character sets to the correct format.
-Encapsulation of data into message envelopes by encryption and compression.
-Restoration of data by decryption and decompression.
-Protocols: SSL, TLS, JPEG, TIFF
-PDU: Data
-Session (Layer 5)
-
-The Session layer’s primary function is managing the sessions in which data is transferred. Functions at this layer include:
-Management of multiple sessions (each client connection is called a session). A server can concurrently maintain thousands of sessions.
-Assignment of the session ID number to each session to keep data streams separate.
-Set up, maintain, and tear down communication sessions.
-Protocols: TCP
-PDU: Data
-Transport (Layer 4)
-
-Transport layer functions include:
-End-to-end flow control.
-Port and socket numbers.
-Segmentation, sequencing, and combination.
-Connection services, either reliable (connection-oriented) or unreliable (connectionless) delivery of data.
-Protocols: TCP, UDP
-PDU: segment  (MTU 1500 bytes)
-Network (Layer 3)
-
-The Network layer describes how data is routed across networks and on to the destination. Network layer functions include:
-
-Identifying hosts and networks using logical addresses.
-Maintaining a list of known networks and neighboring routers.
-Determining the next network point to which data should be sent. Routers use a routing protocol to take into account various factors such as the number of hops in the path, link speed, and link reliability to select the optimal path for data.
-Protocols: RIP, RIPV2, IGRP, EGP, IGP, EIGRP, OSPF, OSPFV3
-PDU: Packet
-Devices: routers, layer 3 switches, firewalls, brouters
-
-Data Link (Layer 2) – Logical Link Control – Media Access Control (MAC)
-
-The Data Link layer defines the rules and procedures for hosts as they access the Physical layer. These rules and procedures specify or define:
-
-How hosts on the network are identified (physical or MAC address).
-How and when devices can transmit on the network medium (media access control and logical topology).
-How to verify that the data received from the Physical layer is error free (parity and CRC).
-How devices control the rate of data transmissions between hosts (flow control).
-Protocols: PPP, SLIP, L2TP, CDP
-PDU: Frame
-Devices: switches, nics, multilayer switch, bridges, WAPs
-
-Physical (Layer 1)
-
-The Physical layer of the OSI model sets standards for sending and receiving electrical signals between devices. Protocols at the Physical layer identify:
-
-How digital data (bits) are converted to electric pulses, radio waves, or pulses of lights.
-Specifications for cables and connectors.
-The physical topology.
-Protocols: SONET, DSL, T1, Ethernet
-PDU: Bits
-Devices: hubs, repeaters, nics, modems, cables, cable connectors, media converters
-  </p>
-</div>
 
 <script src = "Questionaire.js">
 </script>
