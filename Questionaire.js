@@ -1,70 +1,60 @@
-//correct answers get a point
+
+//**Correct answers add a point to score and wrong answers add one to the wrongs.
+
 var score = 0;
 var wrong = 0;
 
-
 var elements = document.getElementsByTagName("button");
-function rev(){
-elements.style.color = "black";
 
-}
+function rev(){
+elements.style.color = "black";}
+
 function add2() {
 wrong += 1;
-document.getElementById("wrong").innerHTML = "Wrong: " + wrong;
-}
+document.getElementById("wrong").innerHTML = "Wrong: " + wrong; }
+
 function add1() {
 score += 1;
-document.getElementById("correct").innerHTML = "Correct: " + score;
-}
-function green() {
- var x = document.getElementsByClassName("dog");
-var i;
-for (i = 0; i < x.length; i++) {
-    x[i].style.color = "green";
-} }
+document.getElementById("correct").innerHTML = "Correct: " + score; }
 
-function  red(){
- var y =
- document.getElementsByClassName("dog");
- var i;
- for (i=0; i < y.length; i++) {
-     y[i].style.color = "red";
- } }
- 
+//*********************************************************
+//*********************************************************
+//**Gets rid of the instructions at the beginning of game.
 
-//gets rid of instructions at start
 function rid() {
 document.getElementById("instruct").style.display = "none";
 document.getElementById("one").style.display = "block";
-
 }
 
-//lineline
+//*********************************************************
+//*********************************************************
+//**This is the 50-50 lifeline.
+
 function help(){
 var wans = document.querySelectorAll("[class='button2']");
-
 for(var i = 0; i < wans.length; i++) 
   wans[i].style.display='none';
 document.getElementById("lifeline").style.display = "none";
 }
+
 function help2() {
 var wans = document.querySelectorAll("[class='button2']");
-
 for(var i = 0; i < wans.length; i++) 
   wans[i].style.display='inline-block';
 }
-//change questions
+
+//**********************************************************
+//*********************************************************
+//Change questions
+
 function change() {
 document.getElementById("two").style.display = "block";
 document.getElementById("one").style.display = "none";
-
 }
 
 function change2() {
 document.getElementById("three").style.display = "block";
 document.getElementById("two").style.display = "none";
-
-
 }
 
 function change3() {
@@ -72,139 +62,167 @@ document.getElementById("four").style.display = "block";
 document.getElementById("three").style.display = "none";
 
 }
+
 function change4() {
 document.getElementById("five").style.display = "block";
 document.getElementById("four").style.display = "none";
-
 }
 
 function change5() {
 document.getElementById("six").style.display = "block";
 document.getElementById("five").style.display = "none";
-
 }
+
 function change6() {
 document.getElementById("seven").style.display = "block";
 document.getElementById("six").style.display = "none";
 }
+
 function change7() {
 document.getElementById("eight").style.display = "block";
 document.getElementById("seven").style.display = "none";
 }
+
 function change8() {
 document.getElementById("nine").style.display = "block";
 document.getElementById("eight").style.display = "none";
-
 }
+
 function change9() {
 document.getElementById("ten").style.display = "block";
 document.getElementById("nine").style.display = "none";
 
 }
+
 function change10() {
 document.getElementById("eleven").style.display = "block";
 document.getElementById("ten").style.display = "none";
-
 }
+
 function change11() {
 document.getElementById("twelve").style.display = "block";
 document.getElementById("eleven").style.display = "none";
-
 }
+
+//********************************************************
+//*********************************************************
+//**Displays Score
+
 function change12() {
 document.write("<p>You got " + score + " out of 12 questions correct.</p>");
  if (score === 12) {
-     document.write("<p><strong><a href='mailto:beonewithbac0n@gmail.com'>Send Email</a> You are the master questionaire!</strong></p>")
+     document.write("<p><strong> You are the master questionaire!</strong></p>")
 } else if ( score >=  10) {
-    document.write("<p><strong><a href='mailto:beonewithbac0n@gmail.com'>Send Email</a>You earned a gold crown!<!strong></p>");
+    document.write("<p><strong>You earned a gold crown!<!strong></p>");
 } else if ( score >= 8) {
-    document.write("<p><strong><a href='mailto:beonewithbac0n@gmail.com'>Send Email</a>You earned a silver crown!</strong></p>");
+    document.write("<p><strong>You earned a silver crown!</strong></p>");
 } else if ( score === 7) {
-    document.write("<p><strong><a href='mailto:beonewithbac0n@gmail.com'>Send Email</a> You earned a bronze crown!</strong></p>");
-} else  {
-    document.write("<p><strong><a href='mailto:beonewithbac0n@gmail.com'>Send Email</a> No crown for you. You need to study.</strong></p>");
+    document.write("<p><strong>You earned a bronze crown!</strong></p>");
 }
 }
 
- //******************************************************************************************************
-
-
-// change button colors.
+//*********************************************************************************************************************************
+//**Change button colors, prevent multiple clicks.
 
 function setColor1(){
 document.getElementById("button1").style.backgroundColor='#119911';
+document.getElementById("button1").disabled = true; 
 }
 function setColor2(){
 document.getElementById("button2").style.backgroundColor='#991111';
+document.getElementById("button2").disabled = true;
 } 
 function setColor3(){
 document.getElementById("button3").style.backgroundColor='#991111';
+document.getElementById("button3").disabled = true;
 }
 function setColor4(){
 document.getElementById("button4").style.backgroundColor='#991111';
+document.getElementById("button4").disabled = true;
 }
 function setColor5(){
-document.getElementById("button5").style.backgroundColor='#991111' 
+document.getElementById("button5").style.backgroundColor='#991111';
+document.getElementById("button5").disabled = true;
 }
 function setColor6(){
 document.getElementById("button6").style.backgroundColor='#991111';
+document.getElementById("button6").disabled = true;
 }
 function setColor7(){
 document.getElementById("button7").style.backgroundColor='#991111';
+document.getElementById("button7").disabled = true;
 }
 function setColor8(){
 document.getElementById("button8").style.backgroundColor='#119911';
+document.getElementById("button8").disabled = true;
 }
 function setColor9(){
 document.getElementById("button9").style.backgroundColor='#991111';
+document.getElementById("button9").disabled = true;
 }
 function setColor10(){
 document.getElementById("button10").style.backgroundColor='#991111';
+document.getElementById("button10").disabled = true;
 }
 function setColor11(){
 document.getElementById("button11").style.backgroundColor='#119911';
+document.getElementById("button11").disabled = true;
 }
 function setColor12(){
 document.getElementById("button12").style.backgroundColor='#991111';
+document.getElementById("button12").disabled = true;
 }
 function setColor13(){
 document.getElementById("button13").style.backgroundColor='#991111';
+document.getElementById("button13").disabled = true;
 }
 function setColor14(){
 document.getElementById("button14").style.backgroundColor='#119911';
+document.getElementById("button14").disabled = true;
 }
 function setColor15(){
 document.getElementById("button15").style.backgroundColor='#991111';
+document.getElementById("button15").disabled = true;
 }
 function setColor16(){
 document.getElementById("button16").style.backgroundColor='#991111';
+document.getElementById("button16").disabled = true;
 }
 function setColor17(){
 document.getElementById("button17").style.backgroundColor='#991111';
+document.getElementById("button17").disabled = true;
 }
 function setColor18(){
 document.getElementById("button18").style.backgroundColor='#119911';
+document.getElementById("button18").disabled = true;
 }
 function setColor19(){
 document.getElementById("button19").style.backgroundColor='#991111';
+document.getElementById("button19").disabled = true;
 }
 function setColor20(){
 document.getElementById("button20").style.backgroundColor='#991111';
+document.getElementById("button20").disabled = true;
 }
 function setColor21(){
 document.getElementById("button21").style.backgroundColor='#991111';
+document.getElementById("button21").disabled = true;
 }
 function setColor22(){
 document.getElementById("button22").style.backgroundColor='#991111';
+document.getElementById("button22").disabled = true;
 }
 function setColor23(){
 document.getElementById("button23").style.backgroundColor='#991111';
+document.getElementById("button23").disabled = true;
 }
 function setColor24(){
 document.getElementById("button24").style.backgroundColor='#119911';
+document.getElementById("button25").disabled = true;
 }
 function setColor25(){
 document.getElementById("button25").style.backgroundColor='#991111';
+document.getElementById("button25").disabled = true;
 }
 function setColor26(){
 document.getElementById("button26").style.backgroundColor='#119911';
@@ -276,13 +294,8 @@ function setColor48(){
 document.getElementById("button48").style.backgroundColor='#991111';
 }
 
-//*****************************************************************************************************************
-
-
-
-
-
-// answers
+//*********************************************************************************************************************************
+//**Answers
 function answer1() {
 document.getElementById("dog").innerHTML="Yes! you are right!";      
 add1();
