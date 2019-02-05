@@ -4,10 +4,11 @@
 <title> Questionaire
 </title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="Questionaire.css">
+<link rel="stylesheet" type="text/css" href="c:\trevor\css\questionaire.css">
 </head>
 <body>
-
+    
+<div>
 <div id = "instruct" style = "display:block;">
 <ol id = "rules">
 <li><p>Welcome to Questionaire! The ultimate quiz game!</p>
@@ -24,98 +25,98 @@
 <button id = "lifeline" type ="button" onclick ="help()"> <p> 50 : 50 </p> </button>
 </div>
 
-<div id = "one" class = "yin" style = "display:none;">
-<span> <p id = "dog" class = "dog"> Question 1 </p> <p id = "cat" class = "cat"> What color are Dorthy's slippers in     The Wizard of Oz? </p> </span>
-<button id = "button1" class ="button1" type = "button" onclick ="answer1(), setColor1(), setTimeout(change, 1000)"> <p> Red </p> </button>
-<button id = "button2" class ="button0" type = "button" onclick ="answer2(), setColor2(), setTimeout(change, 1000)"> <p> Orange </p> </button>
-<button id = "button3" class ="button2" type = "button" onclick ="answer3(), setColor3(), setTimeout(change, 1000)"> <p> Pink </p> </button>
-<button id = "button4" class ="button2" type = "button" onclick ="answer4(), setColor4(),  setTimeout(change, 1000)"> <p> White </p> </button>
+<div id = "one" style = "display:none;">
+<div id = "dog" class = "dog"> Question 1</div><div id = "cat" class = "cat">What color are Dorty's slippers in The Wizard of Oz?</div>
+<button id = "button1" class ="button1" type = "button" onclick ="answer1(), setColor1(), setTimeout(change, 1000)"> <p>Red</p> </button>
+<button id = "button2" class ="button0" type = "button" onclick ="answer2(), setColor2(), setTimeout(change, 1000)"> <p>Pink</p> </button>
+<button id = "button3" class ="button2" type = "button" onclick ="answer3(), setColor3(), setTimeout(change, 1000)"> <p>Green</p> </button>
+<button id = "button4" class ="button2" type = "button" onclick ="answer4(), setColor4(), setTimeout(change, 1000)"> <p>Blue</p> </button>
 </div>
 
-<div id = "two" class = "yang" style = "display:none;"> 
-<span> <p id = "dog2" class = "dog"> Question 2 </p> <p id = "cat" class ="cat"> What is the name of Spongebob's work? </p> </span>
+<div id = "two" style = "display:none;"> 
+<div id = "dog2" class = "dog"> Question 2 </div> <div id = "cat" class ="cat"> What is the name of Spongebob's work? </div>
 <button id = "button5" class ="button0" type = "button" onclick ="answer5(), setColor5(), setTimeout(change2, 1000)"> <p> Oyster</br> Outlet </p> </button>
 <button id = "button6" class ="button2" type = "button" onclick ="answer6(), setColor6(), setTimeout(change2, 1000)"> <p> Rocking</br>Swordfish </p> </button>
 <button id = "button7" class ="button2" type = "button" onclick ="answer7(), setColor7(), setTimeout(change2, 1000)"> <p> Fin </p> </button>
 <button id = "button8" class ="button1" type = "button" onclick ="answer8(), setColor8(), setTimeout(change2, 1000)"> <p> Krusty</br> Krab </p> </button>
 </div>
 
-<div id = "three" class = "yin" style = "display:none;">
-<span> <p id = "dog3" class = "dog"> Question 3 </p> <p id = "cat" class = "cat"> How much donuts is in a bakers dozen? </p> </span>
+<div id = "three" style = "display:none;">
+<div id = "dog3" class = "dog"> Question 3 </div> <div id = "cat" class = "cat"> How many donuts is in a bakers dozen? </div>
 <button id = "button9" class ="button2" type = "button" onclick ="answer9(), setColor9(), setTimeout(change3, 1000)"> <p>  Fourteen </p> </button>
 <button id = "button10" class ="button2" type = "button" onclick ="answer10(), setColor10(), setTimeout(change3, 1000)"> <p>  Twelve  </p> </button>
 <button id = "button11" class ="button1" type = "button" onclick ="answer11(), setColor11(), setTimeout(change3, 1000)"> <p>  Thirteen  </p> </button>
 <button id = "button12" class ="button0" type = "button" onclick ="answer12(), setColor12(), setTimeout(change3, 1000)"> <p>  Eleven  </p> </button>
 </div>
 
-
-<div id = "four" class = "yang" style = "display:none;">
-<span> <p id = "dog4" class = "dog"> Question 4 </p> <p id = "cat" class = "cat"> What planet has the moon Titan? </p> </span>
+<div id = "four" style = "display:none;">
+<div id = "dog4" class = "dog"> Question 4 </div> <div id = "cat" class = "cat"> What planet has the moon Titan? </div>
 <button id = "button13" class ="button0" type = "button" onclick ="answer13(), setColor13(), setTimeout(change4, 1000)"> <p> Neptune </p> </button>
 <button id = "button14" class ="button1" type = "button" onclick ="answer14(), setColor14(), setTimeout(change4, 1000)"> <p> Saturn </p> </button>
 <button id = "button15" class ="button2" type = "button" onclick ="answer15(), setColor15(), setTimeout(change4, 1000)"> <p> Jupiter </p> </button>
 <button id = "button16" class ="button2" type = "button" onclick ="answer16(), setColor16(), setTimeout(change4, 1000)"> <p> Venus </p> </button>
 </div>
 
-<div id = "five" class = "yin" style = "display:none;">
-<span> <p id = "dog5" class = "dog"> Question 5 </p> <p id = "cat" class = "cat"> Who was the main actor in Ferris Bueller's Day Off? </p> </span>
+<div id = "five" style = "display:none;">
+<div id = "dog5" class = "dog"> Question 5 </div> <div id = "cat" class = "cat"> Who was the main actor in Ferris Bueller's Day Off? </div>
 <button id = "button17" class ="button2" type = "button" onclick ="answer17(), setColor17(), setTimeout(change5, 1000)"> <p> Charlie Sheen </p> </button>
 <button id = "button18" class ="button1" type = "button" onclick ="answer18(), setColor18(), setTimeout(change5, 1000)"> <p> Matthew</br>Broderick </p> </button>
 <button id = "button19" class ="button2" type = "button" onclick ="answer19(), setColor19(), setTimeout(change5, 1000)"> <p> Keanu Reeves </p> </button>
 <button id = "button20" class ="button0" type = "button" onclick ="answer20(), setColor20(), setTimeout(change5, 1000)"> <p> Bill Murray </p> </button>
 </div>
 
-<div id = "six" class = "yang" style = "display:none;">
-<span> <p id = "dog6" class = "dog"> Question 6 </p> <p id = "cat" class = "cat"> What country has the city Astana? </p> </span>
+<div id = "six" style = "display:none;">
+<div id = "dog6" class = "dog"> Question 6 </div> <div id = "cat" class = "cat"> What country has the city Astana? </div>
 <button id = "button21" class ="button0" type = "button" onclick ="answer21(), setColor21(), help2(), setTimeout(change6, 1000)"> <p> Russia </p> </button>
 <button id = "button22" class ="button2" type = "button" onclick ="answer22(), setColor22(), setTimeout(change6, 1000)"> <p> Nepal </p> </button>
 <button id = "button23" class ="button2" type = "button" onclick ="answer23(), setColor23(), setTimeout(change6, 1000)"> <p> Dominican</br> Republic </p> </button>
 <button id = "button24" class ="button1" type = "button" onclick ="answer24(), setColor24(), help2(), setTimeout(change6, 1000)"> <p> Khazakstan </p> </button>
 </div>
 
-<div id = "seven" class = "yin"  style = "display:none;">
-<span> <p id = "dog7" class = "dog"> Question 7 </p> <p id = "cat" class = "cat"> What year did NATO form? </p> </span>
+<div id = "seven" style = "display:none;">
+<div id = "dog7" class = "dog"> Question 7 </div> <div id = "cat" class = "cat"> What year did the National Atlantic Treaty Organization(NATO) form? </div>
 <button id = "button25" class ="button2" type = "button" onclick ="answer25(), setColor25(), setTimeout(change7, 1000)"> <p> 1939 </p> </button>
 <button id = "button26" class ="button1" type = "button" onclick ="answer26(), setColor26(), help2(), setTimeout(change7, 1000)"> <p> 1949 </p> </button>
 <button id = "button27" class ="button2" type = "button" onclick ="answer27(), setColor27(), setTimeout(change7, 1000)"> <p> 1929 </p> </button>
 <button id = "button28" class ="button0" type = "button" onclick ="answer28(), setColor28(), help2(), setTimeout(change7, 1000)"> <p> 1944 </p> </button>
 </div>
 
-<div id = "eight" class = "yang" style = "display:none;">
-<span> <p id = "dog8" class = "dog"> Question 8 </p> <p id = "cat" class = "cat"> What cars did Brian O'Conner(Paul Walker) drive in The Fast and The Furious ? </p> </span>
+<div id = "eight" style = "display:none;">
+<div id = "dog8" class = "dog"> Question 8 </div> <div id = "cat" class = "cat"> What cars did Brian O'Conner(Paul Walker) drive in The Fast and The Furious ? </div>
 <button id = "button29" class ="button1" type = "button" onclick ="answer29(), setColor29(), help2(), setTimeout(change8, 1000)"> <p> Lancer</br>and Eclipse  </p> </button>
 <button id = "button30" class ="button0" type = "button" onclick ="answer30(), setColor30(), help2(), setTimeout(change8, 1000)"> <p> Charger</br>and Viper </p> </button>
 <button id = "button31" class ="button2" type = "button" onclick ="answer31(), setColor31(), setTimeout(change8, 1000)"> <p> Mustang</br> and GT </p> </button>
 <button id = "button32" class ="button2" type = "button" onclick ="answer32(), setColor32(), setTimeout(change8, 1000)"> <p> Skyline</br> and 350Z </p> </button>
 </div>
 
-<div  id = "nine" class = "yin" style = "display:none;">
-<span> <p id = "dog9" class = "dog"> Question 9 </p> <p id = "cat" class = "cat"> Who was John Glen? </p> </span>
+<div  id = "nine" style = "display:none;">
+<div id = "dog9" class = "dog"> Question 9 </div> <div id = "cat" class = "cat"> Who was John Glen? </div>
 <button id = "button33" class ="button2" type = "button" onclick ="answer33(), setColor33(), setTimeout(change9, 1000)"> <p> Maker of</br>  HTML</p> </button>
 <button id = "button34" class ="button1" type = "button" onclick ="answer34(), setColor34(), help2(), setTimeout(change9, 1000)"> <p> First Man</br>to Orbit Earth </p> </button>
 <button id = "button35" class ="button0" type = "button" onclick ="answer35(), setColor35(), help2(), setTimeout(change9, 1000)"> <p> Founded</br> Scholastic  </p> </button>
 <button id = "button36" class ="button2" type = "button" onclick ="answer36(), setColor36(), setTimeout(change9, 1000)"> <p> Inventor</br> of Box-Tops </p> </button>
 </div>
 
-<div id = "ten" class = "yang" style = "display:none;">
-<span> <p id = "dog10" class = "dog"> Question 10 </p> <p id = "cat" class = "cat"> What country has more people? </p> </span>
+<div id = "ten" style = "display:none;">
+<div id = "dog10" class = "dog"> Question 10 </div> <div id = "cat" class = "cat"> What country has more people? </div>
 <button id = "button37" class ="button1" type = "button" onclick ="answer37(), setColor37(), help2(), setTimeout(change10, 1000)"> <p> Indonesia </p> </button>
 <button id = "button38" class ="button2" type = "button" onclick ="answer38(), setColor38(), setTimeout(change10, 1000)"> <p> Japan </p> </button>
 <button id = "button39" class ="button2" type = "button" onclick ="answer39(), setColor39(), setTimeout(change10, 1000)"> <p> Russia </p> </button>
 <button id = "button40" class ="button0" type = "button" onclick ="answer40(), setColor40(), help2(), setTimeout(change10, 1000)"> <p> Germany </p> </button>
 </div>
 
-<div id = "eleven" class = "yin" style = "display:none;">
-<span> <p id = "dog11" class = "dog"> Question 11</p> <p id = "cat" class = "cat"> How far is the moon from earth? </p> </span>
+<div id = "eleven" style = "display:none;">
+<div id = "dog11" class = "dog"> Question 11</div> <div id = "cat" class = "cat"> How far is the moon from earth? </div>
 <button id = "button41" class ="button0" type = "button" onclick ="answer41(), setColor41(), help2(), setTimeout(change11, 1000)"> <p> 330,050</br> miles </p> </button>
 <button id = "button42" class ="button1" type = "button" onclick ="answer42(), setColor42(), help2(), setTimeout(change11, 1000)"> <p> 238,900</br> miles </p> </button>
 <button id = "button43" class ="button2" type = "button" onclick ="answer43(), setColor43(), setTimeout(change11, 1000)"> <p> 212,200</br> miles </p> </button>
 <button id = "button44" class ="button2" type = "button" onclick ="answer44(), setColor44(), setTimeout(change11, 1000)"> <p> 175,700</b> miles </p> </button>
 </div>
 
-<div id = "twelve" class = "yang" style = "display:none;">
-<span> <p id = "dog12" class = "dog"> Question 12</p> <p id = "cat" class = "cat"> Who is Puff Daddy? </p> </span>
-<button id = "button45" class ="button1" type = "button" onclick ="answer45(), setColor45(), help2(), setTimeout(change12, 1000)"> <p> Diddy </p> </button>
+<div id = "twelve" style = "display:none;">
+<div id = "dog12" class = "dog"> Question 12</div> <div id = "cat" class = "cat"> Who is Puff Daddy? </div>
+<button id = "button45" class ="button1"
+ type = "button" onclick ="answer45(), setColor45(), help2(), setTimeout(change12, 1000)"> <p> Diddy </p> </button>
 <button id = "button46" class ="button2" type = "button" onclick ="answer46(), setColor46(), setTimeout(change12, 1000)"> <p> Mc Eiht </p> </button>
 <button id = "button47" class ="button0" type = "button" onclick ="answer47(), setColor47(), help2(), setTimeout(change12, 1000)"> <p> Daz Dillinger </p> </button>
 <button id = "button48" class ="button2" type = "button" onclick ="answer48(), setColor48(), setTimeout(change12, 1000)"> <p> Big E </p> </button>
@@ -124,7 +125,9 @@
 <div><p id = "correct">Correct: 0</p></div>
 <div><p id = "wrong">Wrong: 0</p></div>
 
-<script src = "Questionaire.js">
+<script src = "c:\trevor\js\questionaire.js">
 </script>
+
+</div>
 </body>
 </html>
