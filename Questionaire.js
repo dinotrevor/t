@@ -131,7 +131,7 @@ document.getElementById("button1").disabled = true;
 function setColor2(){
 document.getElementById("button2").style.backgroundColor='#991111';
 document.getElementById("button2").disabled = true;
-} 
+}
 function setColor3(){
 document.getElementById("button3").style.backgroundColor='#991111';
 document.getElementById("button3").disabled = true;
@@ -226,72 +226,95 @@ document.getElementById("button25").disabled = true;
 }
 function setColor26(){
 document.getElementById("button26").style.backgroundColor='#119911';
+document.getElementById("button26").disabled = true;
 }
 function setColor27(){
 document.getElementById("button27").style.backgroundColor='#991111';
+document.getElementById("button27").disabled = true;
 }
 function setColor28(){
 document.getElementById("button28").style.backgroundColor='#991111';
+document.getElementById("button28").disabled = true;
 }
 function setColor29(){
 document.getElementById("button29").style.backgroundColor='#119911';
+document.getElementById("button29").disabled = true;
 }
 function setColor30(){
 document.getElementById("button30").style.backgroundColor='#991111';
+document.getElementById("button30").disabled = true;
 }
 function setColor31(){
 document.getElementById("button31").style.backgroundColor='#991111';
+document.getElementById("button31").disabled = true;
 }
 function setColor32(){
 document.getElementById("button32").style.backgroundColor='#991111';
+document.getElementById("button32").disabled = true;
 }
 function setColor33(){
 document.getElementById("button33").style.backgroundColor='#991111';
+document.getElementById("button33").disabled = true;
 }
 function setColor34(){
 document.getElementById("button34").style.backgroundColor='#119911';
+document.getElementById("button34").disabled = true;
 }
 function setColor35(){
 document.getElementById("button35").style.backgroundColor='#991111';
+document.getElementById("button35").disabled = true;
 }
 function setColor36(){
 document.getElementById("button36").style.backgroundColor='#991111';
+document.getElementById("button36").disabled = true;
 }
 function setColor37(){
 document.getElementById("button37").style.backgroundColor='#119911';
+document.getElementById("button37").disabled = true;
 }
 function setColor38(){
 document.getElementById("button38").style.backgroundColor='#991111';
+document.getElementById("button38").disabled = true;
 }
 function setColor39(){
 document.getElementById("button39").style.backgroundColor='#991111';
+document.getElementById("button39").disabled = true;
 }
 function setColor40(){
 document.getElementById("button40").style.backgroundColor='#991111';
+document.getElementById("button40").disabled = true;
 }
 function setColor41(){
 document.getElementById("button41").style.backgroundColor='#991111';
+document.getElementById("button41").disabled = true;
 }
 function setColor42(){
 document.getElementById("button42").style.backgroundColor='#119911';
+document.getElementById("button42").disabled = true;
 }
 function setColor43(){
 document.getElementById("button43").style.backgroundColor='#991111';
+document.getElementById("button43").disabled = true;
 }
 function setColor44(){
 document.getElementById("button44").style.backgroundColor='#991111';
+document.getElementById("button44").disabled = true;
 }
 function setColor45(){
 document.getElementById("button45").style.backgroundColor='#119911';
+document.getElementById("button45").disabled = true;
 }
 function setColor46(){
 document.getElementById("button46").style.backgroundColor='#991111';
+document.getElementById("button46").disabled = true;
 }
 function setColor47(){
 document.getElementById("button47").style.backgroundColor='#991111';
+document.getElementById("button47").disabled = true;
 }
 function setColor48(){
 document.getElementById("button48").style.backgroundColor='#991111';
+document.getElementById("button48").disabled = true;
 }
 
 //*********************************************************************************************************************************
