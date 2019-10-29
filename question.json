@@ -1,0 +1,83 @@
+[
+  {
+    "question": "What color are Dorthy's Slippers in The Wizard of Oz?",
+    "choice1": "Ruby",
+    "choice2": "Pink",
+    "choice3": "Blue",
+    "choice4": "Green",
+    "answer": 1
+  },
+  {
+    "question": "What is the name of Spongebob's work?",
+    "choice1": "Oyster Outlet",
+    "choice2": "Rocking Swordfish",
+    "choice3": "Chum Bucket",
+    "choice4": "Krusty Krab",
+    "answer": 4
+  },
+  {
+    "question": "How many donuts is in a bakers dozen?",
+    "choice1": "Fourteen",
+    "choice2": "Twelve",
+    "choice3": "Thirteen",
+    "choice4": "Eleven",
+    "answer": 3
+  }
+    {
+    "question": "What planet has the moon Titan?",
+    "choice1": "Neptune",
+    "choice2": "Saturn",
+    "choice3": "Jupiter",
+    "choice4": "Venus",
+    "answer": 2
+  },
+  {
+    "question": "Who was the main actor in Ferris Bueller's Day Off?",
+    "choice1": "Charlie Sheen",
+    "choice2": "Matthew Broderick",
+    "choice3": "Keanu Reeves",
+    "choice4": "Bill Murray",
+    "answer": 2
+  },
+  {
+    "question": "What country has the city Astana?",
+    "choice1": "Russia",
+    "choice2": "Nepal",
+    "choice3": "Dominican Republic",
+    "choice4": "Khazakstan",
+    "answer": 4
+  }
+    {
+    "question": "What year did the National Atlantic Treaty Organization(NATO) form?",
+    "choice1": "1939",
+    "choice2": "1949",
+    "choice3": "1929",
+    "choice4": "1944",
+    "answer": 2
+  }
+    {
+    "question": "What year did the movie '2 Fast 2 Furious' come out?",
+    "choice1": "2003",
+    "choice2": "2002",
+    "choice3": "2004",
+    "choice4": "2001",
+    "answer": 1
+  },
+  {
+    "question": "Who was John Glen?",
+    "choice1": "Maker of of the Shake Weight",
+    "choice2": "Founder of Scholastic",
+    "choice3": "First man to orbit the Moon",
+    "choice4": "Former Vice President",
+    "answer": 3
+  },
+  {
+    "question": "What country has more people?",
+    "choice1": "Indonesia",
+    "choice2": "Japan",
+    "choice3": "Russia",
+    "choice4": "Germany",
+    "answer": 1
+  }
+  
+]
